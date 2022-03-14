@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Brandyn!
 - 👀 I’m interested in becoming a UI Web Developer.
-- 🌱 I’m currently learning UX/UI and brushing up my Web Development skills through The Odin Project.
-- 💞️ I’m looking to create stunning websites, apps, and products with awesome people!
+- 🌱 I’m currently brushing up my Web Development skills through The Odin Project and continuing creating awesome UI websites.
+- 💞️ I’m looking to create stunning websites, iOS & Android apps, and products with awesome people!
 - 📫 You can reach me by going to my website @ https://ceneqa.com !

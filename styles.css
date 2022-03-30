@@ -11,7 +11,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height:100%;
-    background:linear-gradient(0deg, rgba(0, 28, 88, 0.3), rgba(3, 117, 211, 0.7)), url(images/website-background.png);
+    background:linear-gradient(0deg, rgba(0, 28, 88, 0.3), rgba(3, 117, 211, 0.7)), url(../7Brandyn.github.io/images/website-background.png);
     background-size:cover;
     background-blend-mode: multiply;
     

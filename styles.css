@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* BACKGROUND IMAGE */
+
+html {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 28, 88, 0.3), rgba(3, 117, 211, 0.7)), url(./images/website-background.png);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+body {
+    color: #f7fffe;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem 0rem;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .7rem 0rem;
+}
+
+p {
+    font-size: 1rem;
+    padding: .7rem 0rem;
+}
+
+li {
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+a {
+    color: #f7fffe;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dd5353;
+}
+
+
+.navbar > ul > li {
+    font-size: 1rem;
+    color: #f7fffe;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.main-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-one-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    flex: 0 0 33%;
+}
+
+.email {
+    color: #f7fffe;
+    transition-duration: 0.4s;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: .3rem solid #cee5f8;
+    background-color: rgb(27, 27, 27);
+    margin: 3rem 0rem;
+}
+  
+.email:hover {
+    background-color: #dd5353;
+    color: #f7fffe;
+}
+
+.text-three-container > h3 {
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+}
+
+.text-three-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 4rem;
+    max-width: 600px;
+    flex: 1 1 33%;
+}
+
+#list-container {
+    display: flex;
+}
+
+#program-container {
+    padding-right: 6rem;
+}
+
+
+#project-container {
+    margin-top: 2rem;
+    padding-right: 6rem;
+}
+
+.list-2-container {
+    display: flex;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+/* LINK IMAGES */
+
+.footer > a {
+    padding-right: .3rem;
+    opacity: 0.4;
+    transition-duration: 0.4s;
+}
+
+.footer > a:hover {
+    opacity: 1.0;
+}

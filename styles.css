@@ -1,5 +1,5 @@
 * {
-    font-size: 100%;
+    font-size: 95%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -101,11 +101,11 @@ a:hover {
 
 .text-one-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     max-width: 520px;
-    max-height: 500px;
+    max-height: 600px;
     flex: 0 2 33%;
-    margin-bottom: 16px;
 }
 
 .email {
@@ -130,6 +130,7 @@ a:hover {
     justify-content: flex-start;
     max-width: 520px;
     flex: 0 2 33%;
+    max-height: 600px;
 }
 
 #list-container {

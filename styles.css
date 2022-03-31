@@ -5,8 +5,8 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
-    /* cursor: url('./images/cursor.png'), auto; */
-    cursor: url('images/cursor2.png'), auto;
+    /* cursor: url('./images/cursor2.png'), auto; */
+    cursor: url('images/cursor.png'), auto;
 }
 
 /* BACKGROUND IMAGE */

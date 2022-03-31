@@ -24,30 +24,23 @@ body {
 }
 
 h1 {
-    /*font-size: 3rem;*/
-    /*padding: 1rem 0rem;*/
-    font-size: 48px;
-    padding: 16px 0px;
+    font-size: 2rem;
+    padding: .5rem 0rem;
 }
 
 h3 {
-    /*font-size: 1.5rem;*/
-    /*padding: .7rem 0rem;*/
-    font-size: 24px;
+    font-size: 1.5rem;
+    padding: .5rem 0rem;
     font-weight: 700;
-    padding: 10px 0px;
 }
 
 p {
-    /*font-size: 1rem;*/
-    /*padding: .7rem 0rem;*/
-    font-size: 16px;
-    padding: 10px 0px;
+    font-size: 1rem;
+    padding: .5rem 0rem;
 }
 
 li {
-    /*font-size: 1rem;*/
-    font-size: 16px;
+    font-size: 1rem;
     list-style-type: none;
 }
 
@@ -67,8 +60,7 @@ a:hover {
 
 
 .navbar > ul > li {
-    /*font-size: 1rem;*/
-    font-size: 16px;
+    font-size: 1rem;
     color: #f7fffe;
     line-height: 2;
     font-weight: 700;
@@ -76,16 +68,14 @@ a:hover {
 }
 
 .navbar {
-    /*margin: 2rem;*/
+    margin: .7rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 32px;
 }
 
 .main-text {
-    /*margin: 1.5rem;*/
-    margin: 24px;
+    margin: 1.5rem;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -104,16 +94,11 @@ a:hover {
 .email {
     color: #f7fffe;
     transition-duration: 0.4s;
-    /*padding: 2rem;
+    padding: 1.5rem;
     font-size: 1.5rem;
-    border-radius: 1rem;
+    border-radius: .7rem;
     border: .3rem solid #cee5f8;
-    margin: 3rem 0rem;*/
-    padding: 32px;
-    font-size: 24px;
-    border-radius: 16px;
-    border: 4px solid #cee5f8;
-    margin: 32px 0px;
+    margin: 2rem 0rem;
     background-color: rgb(27, 27, 27);
 }
   
@@ -122,15 +107,8 @@ a:hover {
     color: #f7fffe;
 }
 
-.text-three-container > h3 {
-    display: flex;
-    font-style: italic;
-    justify-content: center;
-}
-
 .text-three-container {
-    /*margin-right: 4rem;*/
-    margin-right: 40px;
+    margin-right: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -143,15 +121,13 @@ a:hover {
 }
 
 #program-container {
-    padding-right: 6rem;
+    padding-right: 6.7rem;
 }
 
 
 #project-container {
-    /*margin-top: 2rem;
-    padding-right: 6rem;*/
-    margin-top: 32px;
-    padding-right: 134px;
+    margin-top: 2rem;
+    padding-right: 6rem;
 }
 
 .list-2-container {
@@ -159,15 +135,13 @@ a:hover {
 }
 
 .footer {
-    /*margin-top: 2rem;*/
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 /* LINK IMAGES */
 
 .footer > a {
-    /*padding-right: .3rem;*/
-    padding-right: 4px;
+    padding-right: .3rem;
     opacity: 0.4;
     transition-duration: 0.4s;
 }

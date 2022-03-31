@@ -1,10 +1,10 @@
 * {
-    font-size: 80%;
+    font-size: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 /* BACKGROUND IMAGE */
@@ -24,22 +24,26 @@ html {
 
 body {
     color: #f7fffe;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+i {
+    text-shadow: 2px 2px 3px rgb(233, 106, 106);
 }
 
 h1 {
-    /* font-size: 1.5rem; */
+
+    font-size: 1.5rem;
     padding: 6px 0px;
 }
 
 h3 {
     /* font-size: 1rem; */
-    padding: 6px 0px;
+    padding: 6px 0px 8px 0px;
     font-weight: 700;
 }
 
 p {
-    padding: 6px 0px;
+    padding: 8px 0px;
 }
 
 li {
@@ -56,8 +60,15 @@ a {
     text-decoration: none;
 }
 
+#perfect {
+    font-size: 30px;
+    color: #dd5353;
+    text-shadow: 2px 2px 3px rgb(51, 51, 51);
+}
+
 a:hover {
     color: #dd5353;
+    text-shadow: 0px 0px 5px rgb(14, 14, 14);
 }
 
 .bar {
@@ -69,7 +80,6 @@ a:hover {
     color: #f7fffe;
     line-height: 2;
     font-weight: 700;
-    letter-spacing: 4px;
 }
 
 .navbar {
@@ -85,6 +95,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -94,6 +105,7 @@ a:hover {
     max-width: 520px;
     max-height: 500px;
     flex: 0 2 33%;
+    margin-bottom: 16px;
 }
 
 .email {

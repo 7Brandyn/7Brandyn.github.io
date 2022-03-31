@@ -14,7 +14,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height:100%;
-    background:linear-gradient(0deg, rgba(0, 28, 88, 0.3), rgba(3, 117, 211, 0.7)), url(https://7Brandyn.github.io/images/website-background.png);
+    background:linear-gradient(0deg, rgba(0, 28, 88, 0.5), rgba(3, 117, 211, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
     background-size:cover;
     background-blend-mode: multiply;
     
@@ -24,10 +24,6 @@ html {
 
 body {
     color: #f7fffe;
-}
-
-i {
-    text-shadow: 2px 2px 3px rgb(233, 106, 106);
 }
 
 h1 {
@@ -62,7 +58,6 @@ a {
 
 #perfect {
     font-size: 30px;
-    color: #dd5353;
     text-shadow: 2px 2px 3px rgb(51, 51, 51);
 }
 
@@ -152,7 +147,7 @@ a:hover {
 }
 
 .footer {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 /* LINK IMAGES */

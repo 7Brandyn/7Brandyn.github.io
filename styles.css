@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
-    /* cursor: url('./images/cursor2.png'), auto; */
+    /*letter-spacing: 2px;
+    cursor: url('./images/cursor2.png'), auto; */
     cursor: url('images/cursor.png'), auto;
 }
 
@@ -48,6 +48,7 @@ h3 {
 p {
     opacity: 75%;
     padding: 8px 0px;
+    max-width: 580px;
 }
 
 ul {
@@ -120,7 +121,7 @@ a:hover {
 .email {
     color: #f7fffe;
     transition-duration: 0.4s;
-    padding: 12px 112px;
+    padding: 12px 110px;
     border-radius: 4px;
     border: 2px solid #cee5f8;
     background-color: rgb(27, 27, 27);
@@ -136,10 +137,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 520px;
+    max-width: 420px;
     flex: 0 0 33%;
     max-height: 600px;
 }
+
 
 #list-container {
     display: flex;

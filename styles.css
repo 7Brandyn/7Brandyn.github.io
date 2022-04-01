@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     /* cursor: url('./images/cursor2.png'), auto; */
     cursor: url('images/cursor.png'), auto;
 }
@@ -23,25 +23,30 @@ html {
 }
 
 body {
-    color: #f7fffe;
+    color: #dcfffb;
 }
 
 h1 {
+    color: #99fff3;
     font-size: 1.5rem;
 }
 
 h2 {
+    color: #99fff3;
     font-size: 1.5rem;
     padding-bottom: 16px;
 }
 
 h3 {
+    color: #dcfffb ;
+
     /* font-size: 1rem; */
     padding: 6px 0px 8px 0px;
     font-weight: 700;
 }
 
 p {
+    opacity: 75%;
     padding: 8px 0px;
 }
 
@@ -50,6 +55,7 @@ ul {
 }
 
 li {
+    opacity: 75%;
     list-style-type: none;
 }
 
@@ -58,7 +64,7 @@ button {
 }
 
 a {
-    color: #f7fffe;
+    color: #d5fffa;
     text-decoration: none;
 }
 
@@ -68,7 +74,7 @@ a {
 }
 
 a:hover {
-
+    opacity: 100%;
     transition-duration: 0.4s;
     color: #dd5353;
     text-shadow: 0px 0px 5px rgb(14, 14, 14);

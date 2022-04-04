@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() { startscript(); }, false);
+/*document.addEventListener("DOMContentLoaded", function() { startscript(); }, false);
 var player;
 
 function startscript() 
@@ -24,3 +24,4 @@ function change_vol()
 {
  player.volume=document.getElementById("change_vol").value;
 }
+*/

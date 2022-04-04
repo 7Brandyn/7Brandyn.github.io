@@ -11,7 +11,7 @@
 
 /* BACKGROUND IMAGE */
 
-html {
+html { 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,6 @@ html {
     background:linear-gradient(0deg, rgba(0, 28, 88, 0.5), rgba(3, 117, 211, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
     background-size:cover;
     background-blend-mode: multiply;
-    
 }
 
 body {
@@ -29,17 +28,18 @@ body {
 h1 {
     color: #99fff3;
     font-size: 1.5rem;
+    letter-spacing: 1.5px;
 }
 
 h2 {
     color: #99fff3;
     font-size: 1.5rem;
     padding-bottom: 16px;
+    letter-spacing: 1px;
 }
 
 h3 {
     color: #dcfffb ;
-
     /* font-size: 1rem; */
     padding: 6px 0px 8px 0px;
     font-weight: 700;
@@ -61,7 +61,7 @@ li {
 }
 
 button {
-    letter-spacing: 4px;
+    letter-spacing: 6px;
 }
 
 a {
@@ -78,7 +78,7 @@ a:hover {
     opacity: 100%;
     transition-duration: 0.4s;
     color: #dd5353;
-    text-shadow: 0px 0px 5px rgb(14, 14, 14);
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
 }
 
 .bar {
@@ -93,14 +93,14 @@ a:hover {
 }
 
 .navbar {
-    margin: 8px 16px;
+    margin: 18px 26px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .main-text {
-    margin: 16px;
+    margin: 8px 16px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -113,47 +113,59 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 520px;
-    max-height: 600px;
-    flex: 0 2 33%;
-}
-
-.email {
-    color: #f7fffe;
-    transition-duration: 0.4s;
-    padding: 12px 110px;
-    border-radius: 4px;
-    border: 2px solid #cee5f8;
-    background-color: rgb(27, 27, 27);
-}
-  
-.email:hover {
-    background-color: #dd5353;
-    color: #f7fffe;
+    max-width: 400px;
+    margin: 10px;
+    flex: 1 1 33%;
 }
 
 .text-three-container {
-    margin-right: 32px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
-    max-width: 420px;
-    flex: 0 0 33%;
-    max-height: 600px;
+    max-width: 400px;
+    margin: 10px 30px 10px 10px;
+    max-height: 800px;
+    flex: 1 1 33%;
 }
 
+.main-button {
+    display: flex;
+    justify-content: center;
+    color: #d5fffa;
+    transition-duration: 0.4s;
+    padding: 20px 10px;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #d5fffa;
+    background-color: transparent;
+}
+  
+.main-button:hover {
+    background-color: #dd5353;
+    color: #d5fffa;
+    font-weight: 700;
+}
 
 #list-container {
     display: flex;
+    margin-bottom: 16px;
 }
 
 #program-container {
-    padding-right: 6.7rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    max-width: 180px;
+    width: auto;
 }
 
 #project-container {
-    margin-top: 2rem;
-    padding-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    max-width: 180px;
+    width: auto;
 }
 
 .list-2-container {
@@ -186,7 +198,8 @@ input[type="image"] {
 
 .footer {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 2.1rem;
     transition: all .2s ease-in-out;
 }

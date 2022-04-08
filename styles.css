@@ -1,6 +1,5 @@
 * {
     font-size: 95%;
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -11,7 +10,11 @@
 
 /* BACKGROUND IMAGE */
 
-html { 
+body {
+    color: #dcfffb;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,25 +24,74 @@ html {
     background-blend-mode: multiply;
 }
 
-body {
+.dark-mode {
+    transition-duration: 0.5s;
+    color: #dd5353;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.dark-mode a {
+    color: #dd5353;
+}
+
+.dark-mode a:hover {
     color: #dcfffb;
 }
 
+.dark-mode .main-button {
+    color: #dd5353;
+    border: 3px solid #dd5353;
+}
+
+.dark-mode #dark {
+    color: #dd5353;
+    border-color: #dd5353;
+}
+
+.dark-mode #lite {
+    color: #dd5353;
+    border-color: #dd5353;
+}
+
+.dark-mode #dark:hover {
+    color: #d5fffa;
+    border-color: #dd5353;
+}
+
+.dark-mode #lite:hover {
+    color: #292929;
+    border-color: #dd5353;
+}
+
+.light-mode {
+    transition-duration: 0.5s;
+    color: #dcfffb;
+}
+
+button:active {
+    transform: scale(90%);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 h1 {
-    color: #99fff3;
     font-size: 1.5rem;
     letter-spacing: 1.5px;
 }
 
 h2 {
-    color: #99fff3;
     font-size: 1.5rem;
     padding-bottom: 16px;
     letter-spacing: 1px;
 }
 
 h3 {
-    color: #dcfffb ;
     /* font-size: 1rem; */
     padding: 6px 0px 8px 0px;
     font-weight: 700;
@@ -60,10 +112,6 @@ li {
     list-style-type: none;
 }
 
-button {
-    letter-spacing: 6px;
-}
-
 a {
     color: #d5fffa;
     text-decoration: none;
@@ -71,32 +119,76 @@ a {
 
 #perfect {
     font-size: 30px;
-    text-shadow: 2px 2px 3px rgb(51, 51, 51);
 }
 
 a:hover {
     opacity: 100%;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     color: #dd5353;
     text-shadow: 0px 0px 5px rgb(255, 0, 0);
 }
 
-.bar {
+.menu {
     display: flex;
-}
-
-.navbar > ul > li {
-    margin-left: 48px;
-    color: #f7fffe;
+    flex-direction: column;
+    align-items: flex-end;
     font-weight: 700;
     font-style: normal;
 }
 
+
 .navbar {
-    margin: 18px 26px;
+    padding: 18px 26px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme {
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+#theme button {
+    display: flex;
+    letter-spacing: normal;
+    justify-content: center;
+    transition-duration: 0.5s;
+    width: 64px;
+    border-radius: 5px;
+    
+}
+
+#dark {
+    opacity: 0.5;
+    color: #d5fffa;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid #d5fffa;
+}
+
+#dark:hover {
+    opacity: 1.0;
+    background-color: #dd5353;
+}
+
+#lite {
+    opacity: 0.5;
+    color: #d5fffa;
+    background-color: transparent;
+    border: 1px solid #d5fffa;
+}
+
+#lite:hover {
+    opacity: 1.0;
+    color: #292929;
+    background-color: #d5fffa;
 }
 
 .main-text {
@@ -129,10 +221,11 @@ a:hover {
 }
 
 .main-button {
+    letter-spacing: 6px;
     display: flex;
     justify-content: center;
     color: #d5fffa;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     padding: 20px 10px;
     max-width: 380px;
     width: 100%;
@@ -209,7 +302,7 @@ input[type="image"] {
 .footer > a {
     padding-right: .4rem;
     opacity: 0.4;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .footer > a:hover {

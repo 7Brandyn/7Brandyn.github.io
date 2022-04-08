@@ -10,7 +10,7 @@ var c = document.getElementById("matrix-bg");
         //converting the string into an array of single characters
         matrix = matrix.split("");
 
-        var font_size = 8;
+        var font_size = 12;
         var columns = c.width/font_size; //number of columns for the rain
         //an array of drops - one per column
         var drops = [];
@@ -27,7 +27,7 @@ var c = document.getElementById("matrix-bg");
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
             ctx.fillRect(0, 0, c.width, c.height);
 
-            ctx.fillStyle = "#fff";//green text
+            ctx.fillStyle = "#07c700";//green text
             ctx.font = font_size + "px arial";
             //looping over drops
             for(var i = 0; i < drops.length; i++)

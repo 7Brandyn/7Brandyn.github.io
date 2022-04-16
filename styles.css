@@ -1,5 +1,5 @@
 * {
-    font-size: 97%;
+    font-size: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -12,28 +12,23 @@
 
 body {
     color: #dcfffb;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    width: 100vw;
+    width: auto;
     margin: 0;
-    padding: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height:100%;
-    background:linear-gradient(0deg, rgba(0, 28, 88, 0.5), rgba(3, 117, 211, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
-    background-size:cover;
-    background-blend-mode: multiply;
 }
 
 .dark-mode {
     transition-duration: 0.5s;
     color: #dd5353;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height:100%;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
-    background-size:cover;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
+    background-size: cover;
     background-blend-mode: multiply;
 }
 
@@ -134,10 +129,11 @@ a:hover {
     align-items: flex-end;
     font-weight: 700;
     font-style: normal;
+    margin: 16px;
 }
 
 
-.navbar {
+header {
     padding: 18px 26px;
     display: flex;
     justify-content: space-between;
@@ -148,6 +144,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 16px;
 }
 
 #theme {
@@ -192,13 +189,34 @@ a:hover {
 }
 
 .main-text {
-    margin: 8px 16px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px 26px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 28, 88, 0.5), rgba(3, 117, 211, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
+    background-size:cover;
+    background-blend-mode: multiply;
+    overflow: scroll;
+}
+
+.spacer {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
 }
 
 .text-one-container {
@@ -206,18 +224,20 @@ a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 400px;
-    margin: 10px;
+    min-width: 200px;
     flex: 1 1 33%;
+    margin: 16px;
 }
+
 
 .text-three-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 400px;
-    margin: 10px 30px 10px 10px;
     max-height: 800px;
     flex: 1 1 33%;
+    margin: 16px;
 }
 
 .main-button {

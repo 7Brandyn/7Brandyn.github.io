@@ -118,8 +118,8 @@ a {
     text-decoration: none;
 }
 
-#perfect {
-    font-size: 30px;
+#name {
+    font-size: 40px;
 }
 
 a:hover {
@@ -226,7 +226,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 100%;
-    background: linear-gradient(0deg, rgba(0, 38, 110, 0.6), rgba(255, 255, 255, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
+    background: linear-gradient(0deg, rgb(0, 157, 168), rgba(87, 160, 255, 0.5)), url(https://7Brandyn.github.io/images/website-background.png);
     background-size:cover;
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -331,6 +331,7 @@ input[type="image"] {
 .footer {
     display: flex;
     align-items: center;
+    align-content: flex-end;
     flex-wrap: wrap;
     margin-top: 2.1rem;
     transition: all .2s ease-in-out;
@@ -339,7 +340,7 @@ input[type="image"] {
 /* LINK IMAGES */
 
 .footer > a {
-    padding-right: .4rem;
+    padding-right: .5rem;
     opacity: 0.4;
     transition-duration: 0.5s;
 }

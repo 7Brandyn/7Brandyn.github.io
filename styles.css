@@ -12,20 +12,17 @@
 
 body {
     color: #dcfffb;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     width: 100vw;
-    width: auto;
     margin: 0;
+}
+
+#DarkModetext {
+    font-size: 18px;
 }
 
 .dark-mode > .body-container {
     transition-duration: 0.5s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
     margin: 0;
     padding: 0;
     -webkit-background-size: cover;
@@ -35,7 +32,6 @@ body {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
     background-size:cover;
     background-blend-mode: multiply;
-    transition-duration: 0.5s;
     background-attachment: fixed;
     color: #dd5353;
 }
@@ -142,6 +138,9 @@ a:hover {
     margin: 16px;
 }
 
+.menu li {
+    padding-bottom: 8px;
+}
 
 header {
     padding: 18px 26px;
@@ -175,9 +174,10 @@ header {
 /* DARK & LITE MODE BUTTONS */
 
 #dark {
+    margin-right: 16px;
+    padding: 8px 48px;
     opacity: 0.5;
     color: #d5fffa;
-    margin-bottom: 8px;
     background-color: transparent;
     border: 1px solid #d5fffa;
 }
@@ -187,7 +187,14 @@ header {
     background-color: #dd5353;
 }
 
+.btheme {
+    display: flex;
+    justify-content: center;
+}
+
 #lite {
+    margin-right: 16px;
+    padding: 8px 48px;
     opacity: 0.5;
     color: #d5fffa;
     background-color: transparent;
@@ -209,6 +216,7 @@ header {
 }
 
 .body-container {
+    transition-duration: 0.5s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

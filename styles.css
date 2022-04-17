@@ -1,3 +1,9 @@
+/*
+-MAKE LINKS MOBILE RESPONSIVE
+-ADD SPACING AND BETTER HEADING SIZES FOR MOBILE
+*/
+
+
 * {
     font-size: 100%;
     padding: 0;
@@ -146,7 +152,8 @@ header {
     padding: 18px 26px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .logo {

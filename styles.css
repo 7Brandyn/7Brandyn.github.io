@@ -1,19 +1,9 @@
-/*
--MAKE LINKS MOBILE RESPONSIVE
--ADD SPACING AND BETTER HEADING SIZES FOR MOBILE
-*/
-
-
 * {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    /*letter-spacing: 2px;
-    cursor: url('./images/cursor2.png'), auto; */
-    cursor: url('images/cursor.png'), auto;
+    cursor: url(./images/smi219.cur), auto;
 }
-
-/* BACKGROUND IMAGE */
 
 body {
     color: #dcfffb;
@@ -23,7 +13,7 @@ body {
 }
 
 #DarkModetext {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .dark-mode > .body-container {
@@ -75,6 +65,15 @@ body {
     border-color: #dd5353;
 }
 
+.dark-mode .hamburger .bar {
+    background-color: #dd5353;
+}
+
+.dark-mode .checklist li:nth-child(1) {
+    text-decoration: line-through;
+    text-decoration-color: #dd5353;
+}
+
 .light-mode {
     transition-duration: 0.5s;
     color: #dcfffb;
@@ -83,6 +82,10 @@ body {
 button:active {
     transform: scale(90%);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+    cursor: url(./images/smi220.cur), pointer;
 }
 
 h1 {
@@ -132,6 +135,7 @@ a:hover {
     transition-duration: 0.5s;
     color: #dd5353;
     text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    cursor: url(./images/smi218.cur), pointer;
 }
 
 .navbar {
@@ -151,11 +155,10 @@ a:hover {
     font-style: normal;
 }
 
-
-/* Hamburger Menu */
 .hamburger {
     display: none;
-    cursor: pointer;
+    cursor: url(./images/smi218.cur), pointer;
+    margin: 16px;
 }
 
 .bar {
@@ -200,7 +203,7 @@ a:hover {
     }
 
     .nav-menu.active {
-        left: 0;
+        left: -8px;
     }
 }
 
@@ -246,6 +249,8 @@ a:hover {
 .btheme {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 #lite {
@@ -304,6 +309,10 @@ a:hover {
     margin: 16px;
 }
 
+.checklist li:nth-child(1) {
+    text-decoration: line-through;
+    text-decoration-color: #d5fffa;
+}
 
 .text-three-container {
     display: flex;
@@ -411,4 +420,5 @@ input[type="image"] {
 
 .footer img:hover {
     transform: scale(1.4);
+    cursor: url(./images/smi211.cur), pointer;
 }

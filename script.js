@@ -1,3 +1,25 @@
+function nightMode() {
+    var element = document.body;
+    var content = document.getElementById("NightModetext");
+    element.className = "night-mode";
+    content.innerText = "Night Mode is ON";
+}
+
+function dayMode() {
+    var element = document.body;
+    var content = document.getElementById("NightModetext");
+    element.className = "day-mode";
+    content.innerText = "Night Mode is OFF";
+}
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
 /*document.addEventListener("DOMContentLoaded", function() { startscript(); }, false);
 var player;
 
@@ -10,7 +32,7 @@ function startscript()
 function play_aud() 
 {
  player.play();
-} 
+}
 function pause_aud() 
 {
  player.pause();
@@ -25,25 +47,3 @@ function change_vol()
  player.volume=document.getElementById("change_vol").value;
 }
 */
-
-function darkMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "dark-mode";
-    content.innerText = "Dark Mode is ON";
-}
-
-function lightMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "light-mode";
-    content.innerText = "Dark Mode is OFF";
-}
-
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})

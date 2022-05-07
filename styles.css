@@ -6,6 +6,10 @@
 
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     color: #dcfffb;
     height: 100vh;

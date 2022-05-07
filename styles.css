@@ -14,7 +14,7 @@ body {
 }
 
 #NightModetext {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .night-mode > .body-container {
@@ -25,9 +25,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png);
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(https://7Brandyn.github.io/images/website-background.png); */
 
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/website-background.png); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/website-background.png);
 
     background-size:cover;
     background-blend-mode: multiply;
@@ -220,7 +220,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 12px;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 #theme button {
@@ -295,9 +295,9 @@ a:hover {
     -o-background-size: cover;
     min-height: 100%;
 
-    background: linear-gradient(0deg, rgb(0, 157, 168), rgba(87, 160, 255, 0.5)), url(https://7Brandyn.github.io/images/website-background.png);
+    /* background: linear-gradient(0deg, rgb(0, 157, 168), rgba(87, 160, 255, 0.5)), url(https://7Brandyn.github.io/images/website-background.png); */
 
-    /* background: linear-gradient(0deg, rgb(0, 157, 168), rgba(87, 160, 255, 0.5)), url(./images/website-background.png); */
+    background: linear-gradient(0deg, rgb(0, 157, 168), rgba(87, 160, 255, 0.5)), url(./images/website-background.png);
 
     background-size:cover;
     background-blend-mode: multiply;
@@ -306,8 +306,19 @@ a:hover {
 
 .spacer {
     display: flex;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#game-text {
+    margin-right: 16px;
+    max-width: 360px;
+    text-align: center;
+}
+
+#game-text ul{
+    margin: 20px;
 }
 
 .text-one-container {

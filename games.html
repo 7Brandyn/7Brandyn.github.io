@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+
+    <title>Brandyn | UI Developer</title>
+</head>
+
+<body>
+    <div class="body-container">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+
+                <a href="index.html"><img src="./images/me-borderless.png" height="80px">
+                </a>
+                <div id="theme">
+                <h3 id="NightModetext">Night Mode is OFF</h3>
+            <span class="btheme">
+                <button id="night" onclick="nightMode()">Night</button>
+                <button id="day" onclick="dayMode()">Day</button>
+            </span>
+            </div>
+            
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./about.html">ABOUT</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/brandyn-evans-016b30226/">LINKEDIN</a></li>
+                <li class="nav-item"><a href="https://ceneqa.com/">PROJECTS</a></li>
+                <li class="nav-item"><a href="./games.html">GAMES</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+<div class="spacer">
+
+        <!-- <img id="gameboy" src="./snake/gameboy.png"> -->
+    <div id="game-text">
+        <p>So far I only have 1 game I'm willing to release...but we all need to start somewhere, right? See, I knew you'd understand.</p>
+        <sub>Extra Features Soon To Be Added!</sub>
+        <ul>
+            <li>Pause Button</li>
+            <li>Restart Feature</li>
+            <li>Background music</li>
+            <li>Image shell</li>
+            <li>Leaderboard</li>
+            <li>Open / Close Game Feature</li>
+        </ul>
+    </div>
+        <canvas id="game"  width="400" height="400"></canvas>
+
+    <script src="./snake/javagame.js"></script>
+</div>
+        <div class="main-text">
+
+            <div class="text-one-container">
+
+                <h1 id="name">Brandyn Evans</h1>
+                <h2 id="title">JavaScript Games</h2>
+                <h3 id="summary">Games</h3>
+
+                <ul class="gamelist">
+                    <li>Snake...................................................(5.5.2022)</li>
+                    <li>Rock, Paper, Scizzors ........................(4.12.2022)</li>
+                    <li>Pong....................................................Coming Soon!</li>
+                    <li>Mini Pac-Man .....................................Coming Soon!</li>
+                    <li>SF Fighter............................................Coming Soon!</li>
+                    <li>Daly City RPG......................................Coming Soon!</li>
+                </ul>
+
+                <h3>Other</h3>
+                <ul class="toollist">
+                    <li>Night/Day Theme ..............................(4.26.2022)</li>
+                    <li>Calculator............................................(5.9.2022)</li>
+                    <li>Figma Prototype.................................In Projects Tab!</li>
+                    <li>UI App Prototype ...............................In Projects Tab!</li>
+                    <li>ADA Compliant Web Redesign..........Coming Soon!</li>
+                </ul>
+            </div>
+
+            <div class="text-three-container">
+
+                <h4 id="assistance">Like some of these games? Let's make something! </h4>
+
+            <a href="mailto:ceneqa7@gmail.com">
+                <button class="main-button">
+                   ceneqa7@gmail.com
+                </button>
+            </a>
+                
+
+                <div id="listed-container">
+                    <div id="game-description">
+                        <p>These games were simply created with the purpose of learning more about JavaScript development and gaining more experience. One of these days, I will greate a pretty cool browser-based game...but probably not until 2023. Sorry :(</p>
+                    </div>
+                </div>  
+
+                <div class="list-2-container">
+
+                    <div id="programs-container">
+                        
+                    </div>
+
+                    <div class="footer">
+
+<!-- MUSIC PLAYER 
+
+                        <div id="wrapper">
+                            <div id='player'>
+                            <audio id="music_player">
+                            <source src="music/sample_music.mp3"/>
+                            </audio>
+                            <input type="image" src="images/play.png" onclick="play_aud()" id="play_button">
+                            <input type="image" src="images/pause.png" onclick="pause_aud()" id="play_button">
+                            <input type="image" src="images/stop.png" onclick="stop_aud()" id="play_button">
+                            </div>
+                        </div>
+
+-->
+                        <a href="https://ceneqa.com">
+                            <img src="./images/ceneqalogo.png" alt="ceneqa logo" width="auto" height="32"></a>
+                        <a href="https://github.com/7Brandyn">
+                            <img src="./images/github-logo.png" alt="ceneqa logo" width="auto" height="32"></a>
+                        <a href="https://instagram.com/7dynn/">
+                            <img src="./images/insta.png" alt="me" width="auto" height="32"></a>
+                        <a href="https://veltrik.bandcamp.com">
+                            <img src="./images/bandcamp-logo.png" alt="ceneqa logo" width="auto" height="32"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="script.js"></script>
+</div>
+</body>
+</html>

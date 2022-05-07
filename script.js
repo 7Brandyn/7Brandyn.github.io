@@ -1,13 +1,13 @@
 function nightMode() {
-    var element = document.body;
-    var content = document.getElementById("NightModetext");
+    let element = document.body;
+    let content = document.getElementById("NightModetext");
     element.className = "night-mode";
     content.innerText = "Night Mode is ON";
 }
 
 function dayMode() {
-    var element = document.body;
-    var content = document.getElementById("NightModetext");
+    let element = document.body;
+    let content = document.getElementById("NightModetext");
     element.className = "day-mode";
     content.innerText = "Night Mode is OFF";
 }
@@ -19,6 +19,7 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
+
 
 /*document.addEventListener("DOMContentLoaded", function() { startscript(); }, false);
 var player;

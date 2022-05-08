@@ -3,7 +3,6 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     /* cursor: url(./images/smi219.cur), auto; */
-    font-size: 97%;
 }
 
 html {
@@ -98,12 +97,12 @@ button:hover {
 } 
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     letter-spacing: 1.5px;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-bottom: 16px;
     letter-spacing: 1px;
 }
@@ -225,7 +224,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 12px;
-    font-size: .75rem;
+    font-size: .5rem;
 }
 
 #theme button {
@@ -314,7 +313,7 @@ a:hover {
     justify-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 4rem;
+    margin: 64px;
 }
 
 #game-text {
@@ -432,14 +431,14 @@ input[type="image"] {
     align-items: center;
     align-content: flex-end;
     flex-wrap: wrap;
-    margin-top: 2.1rem;
+    margin-top: 1.75rem;
     transition: all .2s ease-in-out;
 }
 
 /* LINK IMAGES */
 
 .footer > a {
-    padding-right: .5rem;
+    padding-right: 8px;
     opacity: 0.4;
     /* transition-duration: 0.5s; */    
 }

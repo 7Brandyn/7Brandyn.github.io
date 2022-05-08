@@ -51,7 +51,11 @@ function drawGame(){
         speed = 11;
     }
     
-    if(score > 5){
+    if(score > 10){
+        speed = 13;
+    }
+
+    if(score > 15){
         speed = 15;
     }
 
@@ -65,7 +69,7 @@ function isGameOver(){
         return false;
     }
 
-    //walls
+//walls
     if(headX < 0 ){
         gameOver = true;
         overSound.play();

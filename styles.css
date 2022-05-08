@@ -312,7 +312,7 @@ a:hover {
     justify-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 64px;
+    /* margin: 64px; */
 }
 
 #game-text {

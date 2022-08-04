@@ -160,6 +160,10 @@ color: #DA160A;
 }
 
 
+.icon-container p {
+  font-size: 1.8vw;
+}
+
 
 /* ------------------------- BIGGER SCREENS ------------------------- */
 /* ------------------------- BIGGER SCREENS ------------------------- */
@@ -527,7 +531,7 @@ color: #DA160A;
 
 /* MENU */
 @media screen and (max-width: 767.99px) {
-  button {
+  #resume {
     display: none;
   }
 
@@ -888,10 +892,6 @@ color: #DA160A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .icon-container p {
-    font-size: 3vw;
   }
 
   #icon-collection-1 {

@@ -164,7 +164,86 @@ color: #DA160A;
   font-size: 1.8vw;
 }
 
+::placeholder {
+  text-align: left; 
+}
 
+/* or, for legacy browsers */
+
+::-webkit-input-placeholder {
+  text-align: left;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: left;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: left;  
+}
+
+:-ms-input-placeholder {  
+  text-align: left; 
+}
+
+input[type=text], select, textarea {
+  font-family: 'Inter', sans-serif;
+  display: inline;
+  font-size: 1rem;
+  width: 100%;
+  padding: 16px;
+  border: 0px solid #313131;
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 8px; 
+  margin-bottom: 16px;
+}
+
+
+input[type=submit] {
+  background-color: #313131;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+input[type=submit]:hover {
+  background-color: #DA160A;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+input[type=email], select, textarea {
+  display: flex;
+  font-size: 1rem;
+  width: 100%;
+  padding: 16px;
+  border: 0px solid #313131;
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 8px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  padding: 32px;
+}
+
+form > p {
+  text-align: center;
+  font-size: 3vw;
+  padding: 8px;
+}
 /* ------------------------- BIGGER SCREENS ------------------------- */
 /* ------------------------- BIGGER SCREENS ------------------------- */
 /* ------------------------- BIGGER SCREENS ------------------------- */
@@ -438,44 +517,7 @@ color: #DA160A;
     margin-bottom: 32px;
   }
 
-  input[type=text], select, textarea {
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    width: 100%;
-    padding: 16px;
-    border: 0px solid #313131;
-    border-radius: 8px; 
-    box-sizing: border-box; 
-    margin-top: 8px; 
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color: #313131;
-    color: #f4f4f4;
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .25s;
-  }
-
-  input[type=submit]:hover {
-    background-color: #DA160A;
-    color: #f4f4f4;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-  /* Add a background color and some padding around the form */
-  .form-container {
-    border-radius: 5px;
-    background-color: #f4f4f4;
-    padding: 32px;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -840,43 +882,6 @@ color: #DA160A;
     margin-bottom: 32px;
   }
 
-  input[type=text], select, textarea {
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    width: 100%;
-    padding: 16px;
-    border: 0px solid #313131;
-    border-radius: 8px; 
-    box-sizing: border-box; 
-    margin-top: 8px; 
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color: #313131;
-    color: #f4f4f4;
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .25s;
-  }
-
-  input[type=submit]:hover {
-    background-color: #DA160A;
-    color: #f4f4f4;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-  .form-container {
-    border-radius: 5px;
-    background-color: #f4f4f4;
-    padding: 32px;
-  }
 
   /* ----FOOTER---- */
   .footer-container {

@@ -9,11 +9,12 @@
 :root {
   --primary-color: #DA1601;
   --secondary-color: #313131;
+  --secondary-text-dark: #f4f4f4;
   --background-lite: #f4f4f4;
+  --background-nite: #313131;
   --button-background-primary: #DA1601;
   --button-text-primary: #f4f4f4;
 }
-
 
 html {
   font-family: 'Inter', sans-serif;
@@ -26,14 +27,13 @@ a:link {text-decoration: none;}
 a:visited{text-decoration: none;}
 a:hover {color: var(--primary-color);}
 
-
-
 body {
   background-color: var(--background-lite);
 }
 
 h1 {font-size: 4rem;}
-h2 {font-size: 3rem; font-weight: 400;}
+h2 {font-size: 3rem; 
+    font-weight: 400;}
 h3 {font-size: 2.5rem;}
 h4 {font-size: 2rem;}
 h5 {font-size: 1.6rem;}
@@ -622,7 +622,8 @@ form > p {
     visibility: hidden;
   }
   
-  .navbar-menu-items a:hover, .navbar-menu-items a:focus {
+  .navbar-menu-items a:hover, 
+  .navbar-menu-items a:focus {
     color: #f1f1f1;
   }
   
@@ -636,7 +637,7 @@ form > p {
   .open-button {
     position: fixed;
     z-index: 999;
-    padding: 16px 32px;
+    margin: 32px;
     font-family: 'Bungee Inline', cursive;
     font-size: 8vw;
     background-image: linear-gradient(
@@ -674,8 +675,7 @@ form > p {
   }
 
   #head {
-    padding: 8px;
-    width: 24vw;
+  display: none;
   }
 
   .my-info {

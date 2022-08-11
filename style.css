@@ -660,7 +660,6 @@ form > p {
   .landing-container {
     flex-direction: column-reverse;
     width: auto;
-    height: fit-content;
   }
 
   #head {
@@ -669,22 +668,22 @@ form > p {
   }
 
   .my-info {
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   #career-title {
-    font-size: 8vw;
+    font-size: 6vw;
   }
 
   #career-description {
-    font-size: 4.6vw;
+    font-size: 4vw;
   }
 
   #my-name {
-    font-size: 10vw;
+    font-size: 8vw;
   }
 }
 

@@ -6,20 +6,30 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: #DA1601;
+  --secondary-color: #313131;
+  --background-lite: #f4f4f4;
+  --button-background-primary: #DA1601;
+  --button-text-primary: #f4f4f4;
+}
+
+
 html {
   font-family: 'Inter', sans-serif;
-  color: #313131;
+  color: var(--secondary-color);
 }
 
 li {list-style: none;}
 a {color: inherit; text-decoration: none;}
 a:link {text-decoration: none;}    
 a:visited{text-decoration: none;}
-a:hover {color: #DA160A;}
+a:hover {color: var(--primary-color);}
+
 
 
 body {
-  background-color: #f4f4f4;
+  background-color: var(--background-lite);
 }
 
 h1 {font-size: 4rem;}
@@ -45,49 +55,49 @@ nav {
   height: 60px;
   font-size: 2vw;
   position: fixed;
-  color: #313131;
-  background-color: #f4f4f4;
+  color: var(--secondary-color);
+  background-color: var(--background-lite);
 }
 
 button {
   transition: .3s;
-  color: #DA160A;
+  color: var(--primary-color);
   font-size: 1rem;
-  background-color: #f4f4f4;
+  background-color: var(--background-lite);
   border: none;
   padding: 6px 12px;
   border-radius: 5px;
-  border: 1px solid #DA160A;
+  border: 1px solid var(--primary-color);
 }
 
 button:hover {
   cursor: pointer;
   color: #f4f4f4;
   transition: .3s;
-  background-color: #DA160A;
-  border: 1px solid #DA160A;
+  background-color: var(--button-background-primary);
+  border: 1px solid var(--primary-color);
 }
 
 button:hover > a > p {
-  color: #f4f4f4;
+  color: var(--background-lite);
 }
 
 button:active {
   transition: none;
   transition-delay: 0s;
-  box-shadow: 0px 0px 5px #ff0000;
+  box-shadow: 0px 0px 5px var(--button-background-primary);
 }
 
 button:active::after {
   color: #f4f4f4;
   transition: none;
   transition-delay: 0s;
-  box-shadow: 5px 10px #ff0000;
+  box-shadow: 5px 10px var(--button-background-primary);
 }
 
 
 #my-name {
-  color: #DA160A;
+  color: var(--primary-color);
   white-space: nowrap;
   font-weight: 700;
 }
@@ -110,7 +120,7 @@ button:active::after {
   align-items: center;
   flex-direction: column;
   justify-content: center;  
-  color: #313131;
+  color: var(--secondary-color);
   z-index: 1;
 }
 
@@ -132,6 +142,7 @@ color: #DA160A;
   width: 100%;
   height: auto;
   margin-bottom: 32px;
+  padding-right: 1rem;
 }
 
 #project-show img {
@@ -151,7 +162,7 @@ color: #DA160A;
 }
 
 #pro-type {
-  color: #DA160A;
+  color: var(--primary-color);
   font-size: 3.2vw;
 }
 
@@ -192,7 +203,7 @@ input[type=text], select, textarea {
   font-size: 1rem;
   width: 100%;
   padding: 16px;
-  border: 0px solid #313131;
+  border: 0px solid var(--secondary-color);
   border-radius: 8px; 
   box-sizing: border-box; 
   margin-top: 8px; 
@@ -201,7 +212,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-  background-color: #313131;
+  background-color: var(--secondary-color);
   color: #f4f4f4;
   font-size: 1.5rem;
   font-weight: 500;
@@ -213,7 +224,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #DA160A;
+  background-color: var(--primary-color);
   color: #f4f4f4;
   font-size: 1.5rem;
   font-weight: 500;
@@ -224,7 +235,7 @@ input[type=email], select, textarea {
   font-size: 1rem;
   width: 100%;
   padding: 16px;
-  border: 0px solid #313131;
+  border: 0px solid var(--secondary-color);
   border-radius: 8px; 
   box-sizing: border-box; 
   margin-top: 8px; 
@@ -235,7 +246,7 @@ input[type=email], select, textarea {
 /* Add a background color and some padding around the form */
 .form-container {
   border-radius: 5px;
-  background-color: #f4f4f4;
+  background-color: var(--background-lite);
   padding: 32px;
 }
 
@@ -263,8 +274,8 @@ form > p {
     height: 60px;
     font-size: 2vw;
     position: fixed;
-    color: #313131;
-    background-color: #f4f4f4;
+    color: var(--secondary-color);
+    background-color: var(--background-lite);
   }
 
   .closebtn {
@@ -331,7 +342,7 @@ form > p {
   #my-name {
     animation: fade-in-up 2s ease 0s 1;
     animation-fill-mode: forwards;
-    color: #DA160A;
+    color: var(--primary-color);
     white-space: nowrap;
     font-weight: 700;
     font-size: 6vw;
@@ -369,10 +380,10 @@ form > p {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: var(--background-lite);
     position: sticky;
     top: 0;
-    box-shadow: 0 15px 15px 0 #f4f4f4;
+    box-shadow: 0 15px 15px 0 var(--background-lite);
     z-index: 1;
   }
 
@@ -381,7 +392,8 @@ form > p {
   }  
 
   #project-text {
-    padding: 112px 0px 0 0px;
+    padding-top: 7rem;
+    padding-right: 1rem;
   }
 
   #project-show img:hover {
@@ -590,10 +602,9 @@ form > p {
   
   .nav-links {
     position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; 
   }
   
   /* The navigation links inside the overlay */
@@ -602,8 +613,8 @@ form > p {
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    display: block; 
+    transition: 0.25s; 
   }
 
   .navbar-menu-items #home {
@@ -659,6 +670,7 @@ form > p {
   /* ----LANDING PAGE---- */
   .landing-container {
     flex-direction: column-reverse;
+    height: 100vh;
   }
 
   #head {

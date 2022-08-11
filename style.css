@@ -659,10 +659,13 @@ form > p {
   /* ----LANDING PAGE---- */
   .landing-container {
     flex-direction: column-reverse;
+    width: auto;
+    height: fit-content;
   }
 
   #head {
-    width: 20%;
+    padding: 8px;
+    width: 24vw;
   }
 
   .my-info {

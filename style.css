@@ -655,7 +655,7 @@ form > p {
   } 
 
 span.open-button {
-    display: none;
+    display: ;
     color: red;
   }
   
@@ -679,7 +679,8 @@ span.open-button {
   }
 
   #head {
-  display: none;
+  height: 20vh;
+  max-width: 100%;
   }
 
   .my-info {

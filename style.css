@@ -31,12 +31,12 @@ body {
   background-color: var(--background-lite);
 }
 
-h1 {font-size: 4rem;}
-h2 {font-size: 3rem; 
+h1 {font-size: 3vw;}
+h2 {font-size: 2.8rem; 
     font-weight: 400;}
-h3 {font-size: 2.5rem;}
-h4 {font-size: 2rem;}
-h5 {font-size: 1.6rem;}
+h3 {font-size: 2.2rem;}
+h4 {font-size: 1.4rem;}
+h5 {font-size: 1.2rem;}
 p {font-size: 1rem;}
 
 .landing-container {
@@ -135,7 +135,6 @@ color: #DA160A;
 }
 
 #pro-title {
-  font-size: 4.6vw;
   padding-bottom: 8px;
 }
 
@@ -164,7 +163,7 @@ color: #DA160A;
 
 #pro-type {
   color: var(--primary-color);
-  font-size: 3.2vw;
+  font-size: 2.4vw;
   padding-bottom: 8px;
 }
 
@@ -274,7 +273,7 @@ form > p {
     top: 0;
     z-index: 1;
     height: 60px;
-    font-size: 2vw;
+    font-size: 1.6vw;
     position: fixed;
     color: var(--secondary-color);
     background-color: var(--background-lite);
@@ -501,7 +500,6 @@ form > p {
     display: flex;
     max-width: 800px;
     flex-wrap: wrap;
-    font-size: 1.5rem;
   }
 
   #me {
@@ -576,7 +574,7 @@ form > p {
   h1 {font-size: 3rem;}
   h2 {font-size: 2.4rem; font-weight: 400;}
   h3 {font-size: 2rem;}
-  h4 {font-size: 3vw;}
+  h4 {font-size: 2.4vw;}
   h5 {font-size: 1.4rem;}
   p {font-size: 1rem;}
 }
@@ -632,7 +630,7 @@ form > p {
     position: absolute;
     top: 6px;
     right: 8px;
-    font-size: 12vw;
+    font-size: 10vw;
   }
 
   .open-button {
@@ -726,7 +724,7 @@ span.open-button {
   }
 
   #project-menu-items h4 {
-    font-size: 3vw;
+    font-size: 2.4vw;
   }
 
   .project-section {
@@ -736,18 +734,17 @@ span.open-button {
   }
 
   #pro-title {
-    font-size: 6vw;
     padding-bottom: 8px;
   }
 
   #pro-type {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 500;
     padding-bottom: 8px;
   }
 
   #duration {
-    font-size: 3.2vw;
+    font-size: 2.4vw;
     padding-bottom: 8px;
   }
 

@@ -537,8 +537,8 @@ form > p {
     flex-direction: column;
     justify-content: center;
     height: 80px;
-    background-color: #313131;
-    color: #f4f4f4;
+    background-color: var(--background-nite);
+    color: var(--secondary-text-dark);
   }
 
   .icon-container {
@@ -656,7 +656,7 @@ form > p {
 
 span.open-button {
     display: ;
-    color: red;
+    color: var(--primary-color);
   }
   
   @keyframes textclip {
@@ -713,10 +713,10 @@ span.open-button {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: var(--background-lite);
     position: sticky;
     top: 0;
-    box-shadow: 0 15px 15px 0 #f4f4f4;
+    box-shadow: 0 15px 15px 0 var(--background-lite);
     z-index: 1;
   }
 
@@ -776,7 +776,7 @@ span.open-button {
   }
 
   #pro-type {
-    color: #DA160A;
+    color: var(--primary-color);
   }
 
     /* ----DEVELOPER TOOLS----  */
@@ -899,8 +899,8 @@ span.open-button {
     flex-direction: column;
     justify-content: center;
     height: 10vh;
-    background-color: #313131;
-    color: #f4f4f4;
+    background-color: var(--background-nite);
+    color: var(--secondary-text-dark);
   }
 
   .icon-container {

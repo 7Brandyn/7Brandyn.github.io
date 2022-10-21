@@ -1,336 +1,419 @@
-<!--             ^?J5PP5YY?!^.                    
-            ^7JPB###########BG5?!^:.              
-         :7P######B######BBBBBBGB#BG~             
-       ^YB######BGBP5YJ?7?7!~^:.^75BBJ.           
-      !B#PYJ?777~^^.               ?G#G!          
-     !B5^.                         .!?5G7         
-    !BG~                               .?^        
-   ~B#B^                                 ~.       
-  .P##Y                                  ?Y       
-  ~##5.                         .::      !#:      
-  J#5.                   .^!7YG#&@&P~    ^B:      
-  5G.     :^7Y555GB?     ~B&#@@G5P#G~    .5!..    
-  !Y     ^5PPP5YYYJ7.    !&@&@&#B&@&BG?   GBJ5    
-  :7     .^~75GB#&#G^     ^?Y!:?P##G5?7^ .B@@B.   
- .~:     ^55?!~~!^.            .::     !^.&@@5    
- ~.                           ^        :!:&@&~    
- !  !^                     ~~~~~         ^@@?     
- .^. ::            :?PPYJJG@@@&B  J?^~Y5:Y@@G^    
-   .:.5.       :.  :77~~7?YY#&##BG#@@@@@&@@@B^    
-    ^.BB:     7!..         .?G#@@@@G&@@@@@&~      
-      !@P     ?55?^~7JY5PBB&@@&#@@Y.Y@@@@@Y       
-       7@G~   .!JJ?5Y7~:.^^^^^!P#^~#&@@@@G.       
-        P@#5G?.        ^~^!75GG?:!B@@@@@J.        
-        .Y@@@@#J:      ?G&@@B:  !@@@@@&!          
-          !B@@@@&P~      :B@GYYJB@@@@#~           
-           .!P#@@@@B5!7JJP@@@@@@@@@@#^            
-              .~Y#@@@@@@@@@@@@@@@@BJ:             
-                 .7P#&@@@@@@@@@GJ~.               
-                    .:~7JYYJ?!^                   
-
-Designed By Brandyn Evans | 7brandyn.github.io 
-:)
--->
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Brandyn Evans | UI DEVELOPER</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
-    </head>
-<body>
-    <span class="open-button" onclick="openNav()">BE</span>
-<!-- LANDING PAGE -->
-    <div class="container">
-        <a id="top"></a>
-            <div class="landing-container">
-                <div class="my-info">
-                    <h1 id="my-name">Brandyn Evans</h1>
-                    <h2 id="career-title">UI Developer</h2>
-                    <h2 id="career-description"><span>I build responsive apps & websites</span></h2>
-                </div>
-                <img id="head" src="./images/headshot.png" alt="Brandyn-Head"> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <title>Brandyn Evans | Developer </title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="container-fluid navbar fixed-top topnav">
+        <div class="topnav" id="myTopnav">
+            <div class="links">
+                <a href="#hero" class="active">Brandyn Evans</a>
+                <a href="#projects">My Projects</a>
+                <a href="#tools">Tools</a>
+                <a href="#about">About Me</a>
+                <a href="#connect">Connect</a>
+                <a class="social" href="https://www.linkedin.com/in/brandyn-evans/"><img src="./img/linkedin-48.ico" alt="linkedin"></a>
+                <a class="resume" href="https://www.ceneqa.com/_files/ugd/1a67df_fbca6bb155b84f9883888f307c4bb3c6.pdf">Resume</a>
+                <a href="javascript:void(0);" class="active icon" onclick="navSelector()">
+                    <i class="bi bi-list"></i>
+                </a>
             </div>
-
-<!-- PROJECTS HEADER -->
-    <h2 id="projects-header">Projects</h2>
-        <div class="project-container">
-            <div class="project-menu">
-                <div id="project-menu-items">
-                    
-                    <li id="menu-websites"><a href="#sub-websites" onclick="Display7(this)"><h4>Websites</h4></a></li>
-                    <li id="menu-javascript"><a href="#sub-javascript" onclick="Display8(this)"><h4>JavaScript</h4></a></li>
-                    <li id="menu-ui"><a href="#sub-ui" onclick="Display9(this)"><h4>User&nbsp;Interface</h4></a></li>
-                    <li id="menu-more"><a href="#sub-more" onclick="Display10(this)"><h4>More</h4></a></li>
-                </div>
-                
-<!-- NAVBAR (located here to maintain FIXED navbar & STICKY subnav)-->
-
-    <nav id="myNavbar" class="navbar-menu-items">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <p id="home"><a href="#top" onclick="Display1(this)">BE</a></p>
-            <ul class="nav-links">
-              
-                <li id="projects"><a href="#projects-header" onclick="Display2(this)">Projects</a></li>
-                <li id="tools"><a href="#developer-tools-header" onclick="Display3(this)">Tools</a></li>
-                <li id="about"><a href="#about-me-header" onclick="Display4(this)">About</a></li>
-                <li id="contact"><a href="#contact-me-header" onclick="Display5(this)">Contact</a></li>
-            </ul>
-        <button id="resume"><a href="https://www.ceneqa.com/_files/ugd/1a67df_fbca6bb155b84f9883888f307c4bb3c6.pdf" onclick="Display6(this)"><p>Resume</p></a></button>
+        </div>
     </nav>
 
+    <div class="container col-xl-12 col-lg-10 col-md-12 col-xs-12 hero d-flex" id="hero">
+        <div class="hero-description">
+            <h1>Brandyn Evans</h1>
+            <h2>UI Developer</h2>
+            <h3>I build responsive websites</h3>
+        </div>
 
-<!-- PROJECTS SECTION -->
-        <a id="sub-websites"></a>
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Brandyn Evans {dot} com</h1>
-                    <h2 id="pro-type">Landing Page</h2>
-                    <p id="duration">Duration: 1 day</p>
-                    <p id="pro-description">An incredibly simple landing page that would be great for product place,ent or portfolio building. Utilizes simple HTML/CSS & JavaScript.</p>
+        <img class="hero-image" src="./img/headshot-1.png" alt="me">
+    </div>
+
+    <div class="container col-xl-10 col-lg-10 col-md-12 col-xs-12" id="projects">
+
+        <h1 class="text-center title pt-5">Projects.</h1>
+
+        <div class="project-section my-4" data-bs-toggle="modal" data-bs-target="#freeveloModal">
+            <img class="project-box img-responsive imagez" src="./img/freevelo-macbook-mockup.png">
+        </div>
+
+        <!-- MODAL -->
+            <div class="modal" id="freeveloModal">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                
+                        <!-- MODAL HEADER -->
+                        <div class="modal-header text-center">
+                        <h2 class="modal-title"><img src="./img/freevelo-logo.png" alt=""></h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- MODAL BODY -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>freevelo</h2>
+                                <h4>Cross-Country Bicycle Touring Company</h4>
+                                <h6>September 2022 - Present</h6>
+                            </div>
+
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+
+                            <h4 class="mt-4">Summary</h4>
+                            <p>After my bicycle trip across America, I became inspired to build a long-distance / cross-country cycling platform for those on a budget.</p>
+                            
+                            <p>I've found that there are 3 major reasons why so many bicycle-lovers are not engaging in long-distance bicycle travel.</p>
+                            <ol>
+                                <li>Reason #1 - "I dont have the time"</li>
+                                <br>
+                                <li>Reason #2 - "I cant afford it"</li>
+                                <br>
+                                <li>Reason #3 - "It doesn't seem safe"</li>
+                                <br>
+                            </ol>
+                            
+                            <p>I want to find ways to solve each of these problems, especially for the younger crowd.</p>
+                        </div>
+                
+                        <!-- MODAL FOOTER -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://www.figma.com/proto/y7M2MAACgeFprm7Qr3hLEe/Nimbus?page-id=0%3A1&node-id=106%3A9&starting-point-node-id=106%3A9&scaling=scale-down">Prototype</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
-                <div id="project-show">
-                    <a href="https://gilded-hamster-64b9e1.netlify.app/" target="_blank"><img src="./images/be-mobile.png" height="auto" max-width="100%"></a>
+            </div>
+  
+
+        <div class="project-section my-4" data-bs-toggle="modal" data-bs-target="#jrynkModal">
+            <img class="project-box img-responsive" src="./img/jrynk-macbook-mockup.png"></a>
+        </div>
+
+        <!-- The Modal -->
+            <div class="modal" id="jrynkModal">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title"><img src="./img/jrynk-logo.png" alt=""></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>Jrynk</h2>
+                                <h4>Fruit Juice Company</h4>
+                                <h6>2 Week Project</h6>
+                            </div>
+
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+                            <img src="./img/Jrynk-Page.png" alt="">
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://www.figma.com/proto/1bp6AkU7oFkuwpE5pkHknR/Jrynk?page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2&scaling=scale-down">Prototype</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="project-section my-4">
+            <img class="project-box img-responsive" data-bs-toggle="modal" data-bs-target="#astroloModal" src="./img/astrolo-macbook-mockup.png">
+        </div>
+
+        <!-- The Modal -->
+            <div class="modal" id="astroloModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">astrolo</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>Astrolo</h2>
+                                <h4>Space-Exploration Website for Kids</h4>
+                                <h6>1 Month Project</h6>
+                            </div>
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://www.figma.com/proto/boJnmns9uY56ZypJVAozxf/SPACE?page-id=0%3A1&node-id=402%3A4&starting-point-node-id=405%3A7">Prototype</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="project-section my-4">
+            <img class="project-box img-responsive" data-bs-toggle="modal" data-bs-target="#ceneqaModal" src="./img/ceneqa-macbook-mockup.png">
+        </div>
+
+        <!-- The Modal -->
+            <div class="modal" id="ceneqaModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">ceneqa studios</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>ceneqa studios</h2>
+                                <h4>Freelance Website Design & Digital Media Platform</h4>
+                                <h6>2019 - Present</h6>
+                            </div>
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://google.com">Live Website</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Upcoming Work</h1>
-                    <h2 id="pro-type">Landing Page</h2>
-                    <p id="duration">Duration: Ongoing</p>
-                    <p id="pro-description">A list of upcoming websites I am currently working on and plan to finish before 2024.</p>
-                </div>
-                <div id="project-show">
-                    <a href="./imbrandyn/brandyn.html" target="_blank"><img src="./images/dyn-projects.png" height="auto" max-width="100%"></a>
-                </div>
-                <!-- <div id="project-show">
-                    <a href="./imbrandyn/brandyn.html" target="_blank"><img src="./images/dyn-projects.png" height="auto"></a>
-                </div> -->
-            </div>
+        <div class="project-section my-4">
+            <img class="project-box img-responsive" data-bs-toggle="modal" data-bs-target="#masterclassModal" src="./img/masterclass-macbook-mockup.png">
+        </div>
 
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Bracelets By Design</h1>
-                    <h2 id="pro-type">eCommerce Website</h2>
-                    <p id="duration">Duration: Current Project</p>
-                    <p id="pro-description">This is a website I've built called Bracelets by Design for a client who creates jewlery in the state of Maryland and Pennsylvania. This project was made using bootstrap.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://spiffy-pavlova-82c33d.netlify.app/" target="_blank"><img src="./images/bbd-website.png"></a>
-                </div>
-            </div>
+        <!-- The Modal -->
+            <div class="modal" id="masterclassModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title"><img src="./img/MasterClass-logo.png" alt=""></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>Masterclass Landing Page Redesign</h2>
+                                <h4>Online education subscription platfor</h4>
+                                <h6>36 Hour Project</h6>
+                            </div>
 
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Github Site</h1>
-                    <h2 id="pro-type">Portfolio Website</h2>
-                    <p id="duration">Duration: ~1 month</p>
-                    <p id="pro-description">This was my previous GitHub website which had a cool landing page, but lacked proper UX/UI. I've added a dark & lite theme to this particular website, and maintained consistent css properties.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="./developer/developer.html" target="_blank"><img src="./images/oldportfolio.png"></a>
-                </div>
-            </div>
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
 
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Off-Pudding</h1>
-                    <h2 id="pro-type">Recipe Website</h2>
-                    <p id="duration">Duration: 3 weeks</p>
-                    <p id="pro-description">This was my second side-project; a recipe website for those who are willing to eat just about anything terrible. I am actively working on this site for fun from time to time.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/7Brandyn/odin-recipes/main/index.html" target="_blank"><img src="./images/offpudding.png"></a>
+                            <h4 class="mt-4">Summary</h4>
+                            <p>I was given a task to redesign a masterclass landing page and an html email message in 24 hours using figma prototype as a reference.</p>
+                            
+                            <p>I actually finished the entire site at an airport with extremely slow internet and limited battery life on the plane.</p> 
+                            
+                            <p>I also did not add anything else after the 24 hours, but I found this to be an extremely useful practice. Why? Because I will not always have all of my tools and ammenities within easy access at all times, so I'm forced to be creative with my process inside and outside as a developer.</p>
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://google.com">Live Website</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Ceneqa Studios</h1>
-                    <h2 id="pro-type">WIX Website</h2>
-                    <p id="duration">Duration: 3-6 months</p>
-                    <p id="pro-description">I work in web design from time to time and use my digital media platform to showcase that I am fully capable of creating high contrast UI websites using (primarily) Wix.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://ceneqa.com/" target="_blank"><img src="./images/ceneqasite.png" height="auto" max-width="100%"></a>
+        <div class="project-section my-4">
+            <img class="project-box img-responsive" data-bs-toggle="modal" data-bs-target="#bbdModal" src="./img/bbd-macbook-mockup.png">
+        </div>
+        
+        <!-- The Modal -->
+            <div class="modal" id="bbdModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Bracelets By Design</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <h2>Bracelets By Design</h2>
+                                <h4>Energy Bracelet Design Company</h4>
+                                <h6>August 2022 - Present</h6>
+                            </div>
+                            <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-info"><a href="https://google.com">Live Website</a></button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+        <div class="project-section my-4">
+            <img class="project-box img-responsive" data-bs-toggle="modal" data-bs-target="#landingModal" src="./img/landing-macbook-mockup.png">
+        </div>
+    
+
+    <!-- The Modal -->
+        <div class="modal" id="landingModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
             
-        <a id="sub-javascript"></a>
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Snake</h1>
-                    <h2 id="pro-type">JavaScript Game</h2>
-                    <p id="duration">Duration: 2 days</p>
-                    <p id="pro-description">This is simply a snake game I decided to remake from (and I will happily admit it) a YouTube tutorial. However, the reason I've decided to add this to MY portfolio is because I am actually customizing this game on my own without the help of tutorials and such. 
-                    </p>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">Product Landing Page</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+            
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h2>Product Page</h2>
+                            <h4>Showcase Website</h4>
+                            <h6>2 day project</h6>
+                        </div>
+                        <h1 class="text-center">MORE INFO BEING ADDED SOON</h1>
+                    </div>
+            
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-info"><a href="https://google.com">Live Website</a></button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div id="project-show">
-                    <a href="https://7brandyn.github.io/snake.html" target="_blank"><img src="./images/snakegame.png" height="auto" max-width="100%"></a>
-                </div>
-            </div>
-
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Calculator</h1>
-                    <h2 id="pro-type">JavaScript Tool</h2>
-                    <p id="duration">Duration: 3 days</p>
-                    <p id="pro-description">A simple calculator I've developed with a little extra UI. I will add more personal touches to the calculator as time goes by to improve the UX by making it more responsive and adding menu items.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://htmlpreview.github.io/?https://github.com/7Brandyn/Creations/blob/main/Calculator/index.html" target="_blank"><img src="./images/calculator.png" height="auto" max-width="100%"></a>
-                </div>
-            </div>
-
-        <a id="sub-ui"></a>
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Jrynk</h1>
-                    <h2 id="pro-type">Website Prototype</h2>
-                    <p id="duration">Duration: 2 Weeks</p>
-                    <p id="pro-description">I created a very simple prototype that uses a strict theme with it's own fonts and spacing rules which promotes the latest UI principles. 
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://www.figma.com/proto/1bp6AkU7oFkuwpE5pkHknR/Jrynk?page-id=0%3A1&node-id=2%3A2&viewport=169%2C362%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2" target="_blank"><img src="./images/drynksite.png" height="auto" max-width="100%"></a>
-                </div>
-            </div>
-
-            <div class="project-section">
-                <div id="project-text">
-                    <h1 id="pro-title">Astrolo</h1>
-                    <h2 id="pro-type">Website Prototype</h2>
-                    <p id="duration">Duration: 4 Weeks</p>
-                    <p id="pro-description">This was actually one of my first Figma creations. I find that when I want to learn a new program or tool, I like to dive DEEP in order to find out whats possible.
-                    </p>
-                </div>
-                <div id="project-show">
-                    <a href="https://www.figma.com/proto/boJnmns9uY56ZypJVAozxf/SPACE?page-id=0%3A1&node-id=402%3A4&viewport=10%2C190%2C0.04&scaling=scale-down&starting-point-node-id=405%3A7" target="_blank"><img src="./images/astrolosite.png" height="auto" max-width="100%"></a>
-                </div>
-            </div>
-
-        <a id="sub-more"></a>
-        <div class="project-section">
-            <div id="project-text">
-                <h1 id="pro-title">Ceneqa Blog</h1>
-                <h2 id="pro-type">Blog</h2>
-                <p id="duration">Duration: Since 2020</p>
-                <p id="pro-description">I decided to create a blog a while back for growth purposes, whether it be personal or career growth. But, I often have people comment on how much it's helped them in their everyday lives.
-                </p>
-            </div>
-            <div id="project-show">
-                <a href="https://ceneqa.tumblr.com/" target="_blank"><img src="./images/ceneqablog.png" height="auto" max-width="100%"></a>
             </div>
         </div>
-        
-        <div class="project-section">
-            <div id="project-text">
-                <h1 id="pro-title">Confidential Sessions</h1>
-                <h2 id="pro-type">HTML Email</h2>
-                <p id="duration">Duration: 1 Hour</p>
-                <p id="pro-description">New relase promotional opportunity to launch and release all 4 short EP's from Veltrik's favorite series called "Confidential Sessions" via email.
-                </p>
+    </div>
+
+    <div class="container col-xl-12 col-lg-12 col-md-12 col-xs-12 tools-used " id="tools">
+        <h1 class="text-center title pt-5">Tools.</h1>
+        <div class="card-group">
+            <div class="container titles row text-center">
+                <div class="col-md-4">
+                    <img class="card-img-top" src="./img/coding.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Web Development</h4>
+                        <p class="card-text">HTML | CSS | JavaScript | Bootstrap 5 | React | React Native | PHP | NodeJS
+                            | ExpressJS | SASS | BABEL | and more..</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="card-img-top" src="./img/wireframe.png">
+                    <div class="card-body">
+                        <h4 class="card-title">UX/UI Design</h4>
+                        <p class="card-text">A huge part in developing great apps and websites lies in your ability to
+                            design easy-to-use products.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="card-img-top" src="./img/networking.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Team Player</h4>
+                        <p class="card-text">I strive to bring positivity into every interaction I have. I believe this
+                            is essential in ensuring a successful busines.</p>
+                    </div>
+                </div>
             </div>
-            <div id="project-show">
-                <a href="./confidential_sessions/index.html" target="_blank"><img src="./images/confidential-laptop.png" height="auto" max-width="100%"></a>
-            </div>
+        </div>
+    </div>
+
+    <div class="container about-container col-xl-12 col-lg-8 col-md-12 col-xs-12 pt-4" id="about">
+        <h1 class="text-center title pt-5">A little about me.</h1>
+        <img class="banner-image col-lg-12 col-md-12 col-xs-12 mb-4" src="./img/banner.png" alt="image">
+
+        <div class="container paragraph-one col-lg-10 col-md-12 col-xs-12 pt-4">
+            <p class="d-block align-middle">I am a Web Developer specializing in human-centered and user-interface
+                design. I love creating websites that explain things quickly and easily for the comprehension of all
+                audiences. I have an eye for detail and a knack for perfection which means when I finish a project, I am
+                extremely satisfied with my results. I always stay curious and I'm constantly learning new ways to solve
+                software and design-related problems.</p>
+
+            <p>I started my journey in design and development back in 2010 as a graphic design intern for VisArts. I
+                worked my way up and eventually became a digital media instructor. I taught subjects in web development,
+                graphic design, brand design, music production, and digital marketing. I gained my knowledge from
+                working with dozens of professionals in and outside of the studio.</p>
         </div>
 
-            </div>
-        </div>
-<!-- DEVELOPER TOOLS -->
-    <h2 id="developer-tools-header">Developer Tools</h2>
-        <div class="developer-tools-container">
-            <div class="developer-image-container">
-                <img id="img1" src="./images/html.png" alt="html-logo" height="auto" width="222px">
-                <img id="img2" src="./images/css.png" alt="css-logo" height="222px" width="222px">
-                <img id="img3" src="./images/javascript.png" alt="javascript-logo" height="222px" width="222px">
-                <img id="img4" src="./images/bootstrap.png" alt="bootstrap-logo" height="222px" width="222px">
-                <img id="img5" src="./images/react.png" alt="react-logo" height="222px" width="222px">
-                <img id="img6" src="./images/node.png" alt="nodejs-logo" height="222px" width="222px">
-            </div>
-        </div>
-        
+        <div class="row d-flex flex-wrap col-lg-12 col-md-12 sm-12">
+            <blockquote class="row col-lg-12 col-md-12 text-center">
+                <h5>“For the things we have to learn before we can do them, we learn by doing them.”
+                </h5>
+                <p class="text-end">- Aristotle</p>
+            </blockquote>
+            <img class="col-lg-6 col-md-6 col-sm-12 p-2" src="./img/firecrew.jpg" alt="img1">
+            <p class="column col-lg-6 col-md-6 col-sm-12 p-2">I've also pursued seasonal wildland firefighting as well. I
+                absolutely loved the experience and have learned incredibly valuable lessons about teamwork,
+                accountability, and community-building. In between my development and design work, I also bicycled
+                across the country and raised money for children with multiple sclerisos. The lessons I've learned on my journey will stay with me forever.</p>
 
-<!-- DESIGN TOOLS -->
-    <h2 id="design-tools-header">Design Tools</h2>
-        <div class="design-tools-container">
-            <div class="design-image-container">
-                <img id="img1" src="./images/ps-logo.png" alt="html-logo" height="222px" width="222px">
-                <img id="img2" src="./images/AI-200.png" alt="css-logo" height="222px" width="222px">
-                <img id="img3" src="./images/XD-200.png" alt="javascript-logo" height="222px" width="222px">
-                <img id="img4" src="./images/dw-logo.png" alt="bootstrap-logo" height="222px" width="222px">
-                <img id="img5" src="./images/balsamiq.png" alt="react-logo" height="222px" width="222px">
-                <img id="img6" src="./images/figma.png" alt="nodejs-logo" height="222px" width="222px">
-            </div>
         </div>
+        <div class="row d-flex">
+            <img class="col-lg-8 col-md-6 col-sm-12 p-2 img-fluid" src="./img/fire1.jpg" alt="">
+            <img class="col-lg-4 col-md-6 col-sm-12 p-2 img-fluid" src="./img/image1.jpg" alt="">
+        </div>
+        <div class="row d-flex">
+            <img class="col-lg-4 col-md-6 col-sm-12 p-2 img-fluid" src="./img/image2.jpg" alt="">
+            <img class="col-lg-8 col-md-6 col-sm-12 p-2 img-fluid" src="./img/image4.jpg" alt="">
+        </div>
+    </div>
 
-<!-- ABOUT ME -->
-    <h2 id="about-me-header">About Me</h2>
-        <div class="about-me-container">
-            <div id="moretext">
-            <h4>Hi! 👋 </h4>
-            <p id="about-description">
-                I'm a User-Interface Designer & Front-End Developer who holds a diverse background in design and development. I've started my journey as a Digital Media Designer, UI Developer, and Project Manager for VisArts in Rockville, MD andcurrently run a Digital Media platform called Ceneqa Studios. I've learned front-end web development after following my strong sense of curiosity and immersing myself in projects has tremendously helped me improve my skills. 
-            </p>
-            </div>
-            <img id="me" src="./images/self.png" alt="i like this jacket">
-        </div>
-        <h5 id="journey">The journey is still a long one and I can't wait to work on many more fun projects with amazing people!</h5>
+    <div class="container contact-container col-lg-12 col-md-12 col-xs-12 pt-4" id="connect">
+        <h1 class="text-center title pt-5">Let's connect.</h1>
 
-<!-- CONTACT ME -->
-    <h2 id="contact-me-header">Contact Me</h2>
-        <div class="form-container">
-            <form id="my-form" action="https://formspree.io/f/xeqdjdvk" method="POST">
-                <input type="text" name="Name" placeholder="Name" required>
-                <input type="email" name="Email" placeholder="Email" required>
-                <textarea type="text" name="Message" placeholder="Message" rows="8" required></textarea>
-                <button id="my-form-button" name="submit">Submit</button>
-                <p id="my-form-status"></p>
-              </form>
-        </div>
-        <!-- FOOTER -->
-    <footer class="footer-container">
-        <div class="icon-container">
-            <div id="icon-collection-1">
-                <a href="https://linkedin.com/brandyn-evans"><img src="./images/linkedin-icon.png"></a>
-                <a href="https://veltrik.bandcamp.com"><img src="./images/bandcamp-icon.png"></a>
-                <a href="https://reddit.com/ceneqa"><img src="./images/reddit-icon.png"></a>
-                <a href="https://tumblr.com/ceneqa"><img src="./images/tumblr.png"></a>
-            </div>
-            <p>7Brandyn.Github.io | Brandyn Evans</p>
-            <div id="icon-collection-2">
-                <a href="./developer/developer.html"><img src="./developer/images/me-borderless.png" height="28px" width="auto"></a>
-                <a href="https://ceneqa.com"><img src="./images/ceneqa.png"></a>
-                <a href="https://7brandyn.github.io"><img src="./images/ui-logo.png"></a>
-                <a href="https://github.com/7brandyn"><img src="./images/github.png"></a>
-            </div>
+        <form class="col-md-12 text-center" id="my-form" action="https://formspree.io/f/xeqdjdvk" method="POST">
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea type="text" name="Message" placeholder="Message" rows="8" required></textarea>
+            <button class="btn my-form-button text-center px-4 mb-4" id="my-form-button" name="submit">Submit</button>
+            <p id="my-form-status"></p>
+        </form>
+    </div>
+
+    <footer class="container-fluid footer d-flex py-4 text-center">
+        <div class="col-lg-12 col-xs-12 mx-auto footer-heading d-flex flex-column">
+            <a href="https://imbrandyn.netlify.app/"><img src="./img/Electabuzz.png" alt=""> Powered by Brandyn
+                Evans</a>
         </div>
     </footer>
-
-    <div class="cursor-outer"></div>
-    <div class="cursor-inner"></div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src='script.js'></script>
-    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>

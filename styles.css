@@ -79,11 +79,11 @@ button a:focus {
     color: white;
 }
 
-#black,
-#black:hover,
-#black:active,
-#black:focus {
-    color: var(--dark);
+#prime,
+#prime:hover,
+#prime:active,
+#prime:focus {
+    color: var(--primary);
 }
 
 .navbar {

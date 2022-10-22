@@ -26,7 +26,10 @@ h4 {font-weight: 700;}
 
 h6 {font-weight: 700;}
 
-a {
+a, 
+a:hover, 
+a:focus, 
+a:active {
     text-decoration: none;
     color: var(--lite);
     padding: 0 6px;
@@ -67,6 +70,20 @@ nav {
     z-index: 9;
     width: 100%;
     background-color: var(--dark);
+}
+
+button a, 
+button a:hover, 
+button a:active, 
+button a:focus {
+    color: white;
+}
+
+#black,
+#black:hover,
+#black:active,
+#black:focus {
+    color: var(--dark);
 }
 
 .navbar {

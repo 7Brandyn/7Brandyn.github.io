@@ -201,6 +201,17 @@ a.social img {
     .hero-image {
         max-width: 240px;
     }
+
+    .hero-description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-description > h1 {
+        font-size: 2.4rem;
+    }
 }
 
 @media screen and (max-width: 996px) {

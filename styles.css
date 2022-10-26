@@ -34,16 +34,7 @@ a:active {
     color: var(--lite);
     padding: 0 6px;
     font-size: 1rem;
-}
-
-a:hover {
     transition: .4s;
-    text-decoration: none;
-}
-
-a:focus {
-    color: var(--lite);
-    text-decoration: none;
 }
 
 ul {
@@ -63,6 +54,18 @@ li a:hover {
 span {
     color: var(--lite);
 }
+
+.badge {margin: 2px;}
+.badge-html {background-color: #a22a2a;}
+.badge-css {background-color: #a2662a;}
+.badge-bootstrap {background-color: #8ea22a;}
+.badge-javascript {background-color: #4aa22a;}
+.badge-jquery {background-color: #2aa2a0;}
+.badge-react {background-color: #2a50a2;}
+.badge-php {background-color: #702aa2;}
+.badge-figma {background-color: #a22a6a;}
+.badge-wix {background-color: #1d1d1d;}
+
 
 nav {
     display: flex;

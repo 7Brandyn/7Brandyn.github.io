@@ -9,7 +9,8 @@
 :root {
     --lite: #e7e7e7;
     --dark: #111111;
-    --primary: #a22a2a;
+    /* --primary: #a22a2a; */
+    --primary: #f9c22e;
     --bottom: 4rem;
 }
 
@@ -127,7 +128,7 @@ button a:focus {
   
 .topnav a.active {
     background-color: var(--primary);
-    color: var(--lite);
+    color: var(--dark);
 }
   
 .topnav .icon {
@@ -164,6 +165,13 @@ a.social img {
 .topnav a.social:hover {
     background-color: var(--primary);
     transition: .8s ease;
+}
+
+.brandyn-evans {
+    background-image: url(./img/yellow-brack.jpg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 @media screen and (max-width: 800px) {
